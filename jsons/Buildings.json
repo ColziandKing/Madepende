@@ -5,7 +5,7 @@
 		"uniqueTo": "Queexame",
 		"culture": 3,
 		"faith": 3,
-		"cost": 40,
+		"cost": 60,
 		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
@@ -20,8 +20,8 @@
 		"requiredTech": "Fertilizer"
 	},
 {
-		"name": "Commercial Dock,
-		"uniqueTo": "Queexame",
+		"name": "Commercial Dock",
+		"uniqueTo": "Suzainswellia",
 		"gold": 2,
 		"cost": 220,
 		"maintenance": 2,
