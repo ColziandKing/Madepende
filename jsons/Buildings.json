@@ -2,7 +2,7 @@
 	{
 		"name": "Settling Stone",
 		"replaces": "Monument",
-		"uniqueTo": "Queexame",
+		"uniqueTo": "Yanzerhan",
 		"culture": 3,
 		"faith": 3,
 		"cost": 60,
@@ -12,7 +12,7 @@
 	},
   {
 		"name": "Park",
-	  	"uniqueTo": "Queexame",
+	  	"uniqueTo": "Salumi",
 		"uniques": ["[+25]% Great Person generation [in this city]", "[+25]% [Food] [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 3,
@@ -34,7 +34,7 @@
 {
 		"name": "Seowon",
 		"replaces": "University",
-		"uniqueTo": "Siam",
+		"uniqueTo": "Salveo",
 		"maintenance": 3
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -47,7 +47,7 @@
 	{
 		"name": "Queexame",
 		"replaces": "Observatory",
-		"uniqueTo": "Siam",
+		"uniqueTo": "Magroonaguio",
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 50},
