@@ -248,5 +248,25 @@
 		"uniques": ["[+1 Food] [in this city]","[+1 Happiness] [in this city]"],
 		"requiredBuilding": "Supermarket",
 		"requiredTech": "Telecommunications"
+	},
+	{
+		"name": "Zoo",
+		"uniqueTo": "Dicesun",
+		"happiness": 2,
+		"cost": 320,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Hotel",
+		"uniqueTo": "Skiuma",
+		"gold": 5,
+		"cost": 440,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+50]% [Culture] [in all cities]"],
+		"requiredTech": "Refrigeration"
 	}
   ]
