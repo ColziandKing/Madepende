@@ -35,21 +35,7 @@
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	// Column 2
-	{
-		"name": "Basalt Builds",
-		"replaces": "Stone Works",
-		"uniqueTo": "Skiuma",
-		"happiness": 1,
-		"culture": 1,
-		"production": 2,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
-	},
+	
 	{
 		"name": "Paper Maker",
 		"replaces": "Library",
@@ -258,15 +244,5 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
-	},
-	{
-		"name": "Hotel",
-		"uniqueTo": "Skiuma",
-		"gold": 5,
-		"cost": 440,
-		"maintenance": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["[+50]% [Culture] [in all cities]"],
-		"requiredTech": "Refrigeration"
 	}
   ]
