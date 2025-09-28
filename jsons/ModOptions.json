@@ -42,6 +42,7 @@
 		"Mod is incompatible with [Brave New World Updated]",
 		"Cannot be used as permanent audiovisual mod"
 	],
+	"modUrl": "https://github.com/ColziandKing/Madepende",
 	"author": "ColziandKing",
 	"constants": {
         "maxLakeSize": 5,
