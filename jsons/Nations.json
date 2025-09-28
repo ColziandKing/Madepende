@@ -1654,7 +1654,7 @@
 		"name": "The Buccaneers",
 		"leaderName": "Henry Morgan",
 		"adjective": ["The Buccaneers"],
-		"startBias":["None"],
+		"startBias":["Coast"],
 		"preferredVictoryType": "Domination",
 
 
