@@ -1,0 +1,240 @@
+[
+	// Pantheons
+    {
+        "name": "Earth Mother",
+        "type": "Pantheon",
+        "uniques": [
+			"[+1 Faith] from every [Salt]",
+			"[+1 Faith] from every [Copper]",
+			"[+1 Faith] from every [Iron]"
+		]
+    },
+	{
+        "name": "God-King",
+        "type": "Pantheon",
+        "uniques": [
+			"[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Production] from every [Palace]"
+		]
+    },
+	{
+        "name": "Sun God",
+        "type": "Pantheon",
+        "uniques": [
+			"[+1 Food] from every [Bananas]",
+			"[+1 Food] from every [Citrus]",
+			"[+1 Food] from every [Wheat]"
+		]
+    },
+	{
+        "name": "Tears of the Gods",
+        "type": "Pantheon",
+        "uniques": [
+			"[+2 Faith] from every [Gems]",
+			"[+2 Faith] from every [Pearls]"
+		]
+    },
+
+	// Founder
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": [
+            "[+1 Happiness] for each global city following this religion" // TODO: +1 Happiness for every 2 Cities following this religion
+        ]
+    },
+    {
+        "name": "Mithraea",
+        "type": "Founder",
+        "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
+    },
+    {
+        "name": "Salat",
+        "type": "Founder",
+        "uniques": ["[+4 Production] [in capital]"]
+    },
+    {
+        "name": "Zakat",
+        "type": "Founder",
+        "uniques": ["[+8 Gold] [in capital]"]
+    },
+    {
+        "name": "Dawah",
+        "type": "Founder",
+        "uniques": ["[+4 Culture] [in capital]"]
+    },
+
+	// Follower
+    {
+        "name": "Religious Art",
+        "type": "Follower",
+        "uniques": [
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]",
+			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
+        ],
+		"civilopediaText": [
+			{ "text": "Hermitage", "link": "Building/Hermitage" }
+		]
+    },
+
+    // Enhancer
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": [
+            "[+25]% Natural religion spread [in all cities]",
+            "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"
+        ]
+    },
+    {
+        "name": "Holy Alliance",
+        "type": "Enhancer",
+        "uniques": ["Comment [Gain 150 [Gold] and [Faith] upon declaring friendship or upon declaring a defensive pact (modified by game speed)]", "Gain [150] [Gold] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Gold] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>"]
+    },
+    {
+        "name": "Inquisition Tribunals",
+        "type": "Enhancer",
+        "uniques": ["Free [Inquisitor] appears <upon constructing [Courthouse]>", "[+2 Faith] from every [Courthouse]"]
+    },
+    {
+        "name": "Dharma",
+        "type": "Enhancer",
+        "uniques": ["[+10 Science] from every [Grand Temple]"]
+    },
+    {
+        "name": "Disciples",
+        "type": "Enhancer",
+        "uniques": ["[+2 Gold, +2 Culture] from every [Great Improvement]"]
+    },
+    {
+        "name": "Hajj",
+        "type": "Enhancer",
+        "uniques": ["[+3 Food, +3 Production, +3 Culture] [in capital]"]
+    },
+    {
+        "name": "Karma",
+        "type": "Enhancer",
+        "uniques": ["[+8 Culture] [in holy cities]"]
+    },
+    {
+        "name": "Kotel",
+        "type": "Enhancer",
+        "uniques": ["[+6 Happiness] [in capital]"]
+    },
+    {
+        "name": "Jizya",
+        "type": "Enhancer",
+        "uniques": ["[+6 Production, +6 Gold] from every [Grand Temple]"]
+    },
+
+    // Reformation Beliefs
+    {
+        "name": "Apostolic Palace",
+        "type": "Enhancer",
+        "uniques": [
+            "[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]",
+            "Only available <after adopting [Reformation]>"
+        ]
+    },
+    {
+        "name": "Houses of Worship",
+        "type": "Enhancer",
+        "uniques": [
+            "May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
+    },
+    {
+        "name": "Charitable Missions",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            "Gifts of Gold to City-States generate [+30]% more Influence"
+        ]
+    },
+    {
+        "name": "Evangelism",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
+        ],
+		"civilopediaText": [
+			{ "text": "Missionary", "link": "Unit/Missionary"}
+		]
+    },
+    {
+        "name": "Heathen Conversion",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it" // TODO: Missionaries convert adjacent Barbarian units to this civilization
+        ]
+    },
+    {
+        "name": "Jesuit Education",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]"
+		]
+    },
+    {
+        "name": "Religious Fervor",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]"
+        ]
+    },
+    {
+        "name": "Sacred Sites",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			// TODO: All buildings purchased with Faith provide 2 Tourism each
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]"
+        ],
+		"civilopediaText": [
+			{ "text": "Cathedral", "link": "Building/Cathedral" },
+			{ "text": "Monastery", "link": "Building/Monastery" },
+			{ "text": "Mosque", "link": "Building/Mosque" },
+			{ "text": "Pagoda", "link": "Building/Pagoda" }
+		]
+    },
+    {
+        "name": "To the Glory of God",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+			"May buy [Great Person] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+        ]
+    },
+    {
+        "name": "Underground Sect",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // TODO: Your spies exert religious pressure on the cities they occupy
+			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
+			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
+			"Only available <when espionage is enabled> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Unity of the Prophets",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>",
+            // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
+			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
+        ]
+    }
+]
