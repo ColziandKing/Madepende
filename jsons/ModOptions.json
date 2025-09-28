@@ -3,25 +3,6 @@
 	"buildingsToRemove": [
 		"National Treasury" // Replaced by East India Company https://civilization.fandom.com/wiki/East_India_Company_(Civ5)
 	],
-	"religionsToRemove": ["Wakan Tanka",
-    "Pachamama",
-    "Temaukelism",
-    "Pajelanca",
-    "Laicism",
-    "Anglican",
-    "Animism",
-    "Shia Islam",
-    "Ibadi Islam",
-    "Baptist",
-    "Calvinism",
-    "Candomble",
-    "Heliolatry",
-    "Lutheran",
-    "Manaism",
-    "Shamanism",
-    "Shinto",
-    "Voodoo"
-	],
 	"nationsToRemove": [
 		"Jakarta",
 		"Lisbon",
