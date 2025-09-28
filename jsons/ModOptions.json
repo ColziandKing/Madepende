@@ -42,11 +42,10 @@
 		"Mod is incompatible with [Brave New World Updated]",
 		"Cannot be used as permanent audiovisual mod"
 	],
-	"modUrl": "https://github.com/ColziandKing/Barwon",
 	"author": "ColziandKing",
 	"constants": {
         "maxLakeSize": 5,
-        "riverCountMultiplier": 0.015,
+        "riverCountMultiplier": 0.99,
         "religionLimitBase": 0,
         "religionLimitMultiplier": 1,
         "unitSupplyPerPopulation": 10,
