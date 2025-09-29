@@ -1,4 +1,14 @@
 [	
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"gold": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
     {
 		"name": "Wool",
 		"resourceType": "Luxury"
@@ -131,6 +141,32 @@
 		"name": "Reduced Head",
 		"resourceType": "Strategic",
 		"uniques":["Not shown on world screen <without [Reduced Head]>","Cannot be traded","Stockpiled"]
+	},
+
+	// Policies: Ideology slot requirements
+	{
+		"name": "Level 1 Policy",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Cannot be traded <hidden from users>",
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen",
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Level 2 Policy",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Cannot be traded <hidden from users>",
+			"Stockpiled",
+			"Excluded from map editor",
+			"Not shown on world screen",
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Level 3 Policy",
