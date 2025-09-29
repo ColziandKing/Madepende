@@ -513,7 +513,7 @@ NationIcons/Songhai
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Spain 
+ReligionIcons/Catholicism 
   rotate: false
   xy: 760, 185
   size: 100, 100
