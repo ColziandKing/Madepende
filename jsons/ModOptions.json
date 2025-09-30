@@ -1,5 +1,9 @@
 {
 	"isBaseRuleset": false,
+	"buildingsToRemove": [
+	],
+	"policiesToRemove": [
+	],
 	"religionsToRemove": [
 		"Wakan Tanka",
     "Pachamama",
@@ -28,7 +32,7 @@
 		"Dublin",
 		"Rio de Janeiro",
 		"Edinburgh",
-		"Helsinki","Brussels","Bucharest","Budapest", "Cahokia", "Cape Town", "Colombo", 
+		"Helsinki","Brussels","Bucharest","Budapest", "Cahokia", "Cape Town", "Colombo", "Venice",
     "Hanoi", "La Venta", "Lhasa", "Manila", "Tyre", "Valletta", "Vilnius", "Wellington", "Yerevan"
 	],
 	"uniques": [
