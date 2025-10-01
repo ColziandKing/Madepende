@@ -744,9 +744,9 @@
 			{
 				"name": "Cultural Exchange",
 				"uniques": [
-					"[+15]% [Tourism] resource production", // TODO: +15% Tourism when you have a active Trade Routes
-					"[+15]% [Tourism] resource production <after founding a religion>", // TODO: Sharing a Religion should give +15% Tourism
-					"[+15]% [Tourism] resource production <when not at war>", // TODO: Sharing Open Borders should give +15% Tourism
+					"[+15]% [Tourism] resource production", 
+					"[+15]% [Tourism] resource production <after founding a religion>", 
+					"[+15]% [Tourism] resource production <when not at war>", 
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"requires": [
@@ -957,9 +957,30 @@
 
 			// Level 3
 			{
+				"name": "Populism",
+				"uniques": [
+                                        "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Fascism",
+				"uniques": [
+                                        "Empire enters golden age <upon conquering a city>",
+					"[Mounted] units gain the [Volley] promotion",
+                                        "[Armor] units gain the [Volley] promotion",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
 				"name": "Cult of Personality",
 				"uniques": [
-					// TODO: +50% Tourism to Civilizations fighting a common enemy
 					"[+50]% [Tourism] resource production <when at war>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
@@ -1183,9 +1204,28 @@
 
 			// Level 3
 			{
+				"name": "Communism",
+				"uniques": [
+					"[+15]% [Food] from every [Market]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Socialism",
+				"uniques": [
+                                        "[+10]% [Science] [in all cities connected to capital]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
-					// TODO: +34% Tourism to Civilizations with less Happiness.
 					"[+34]% [Tourism] resource production <when above [0] [Happiness]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
@@ -1197,9 +1237,9 @@
 			{
 				"name": "Iron Curtain",
 				"uniques": [
-					"Gain a free [Courthouse] [in this city] <upon conquering a city>", // TODO: Does this work?
-					"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
-					"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
+					"Gain a free [Courthouse] [in this city] <upon conquering a city>", 
+					"[+50]% [Food] from Trade Routes <in [Your] cities>", 
+					"[+50]% [Production] from Trade Routes <in [Your] cities>", 
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1411,9 +1451,29 @@
 
 			// Level 3
 			{
+				"name": "Free Speech",
+				"uniques": [
+		                        "[+2 Food, +2 Production] from every specialist [in all cities]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Constitution",
+				"uniques": [
+                                        "[+2 Happiness] [in all cities connected to capital]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
 				"name": "Media Culture",
 				"uniques": [
-					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
+					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", 
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
@@ -1424,7 +1484,7 @@
 			{
 				"name": "Treaty Organization",
 				"uniques": [
-					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
+					"[+50]% resources gifted by City-States",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
