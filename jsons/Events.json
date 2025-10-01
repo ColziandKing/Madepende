@@ -1,36 +1,62 @@
 [
-	// Spaceflight Pioneers - Great Engineer - Build Spaceship Part
+	// Specia Policy
 	{
-		"name": "Spaceship part",
-		"text": "By expending your [Great Engineer] you gained [spaceship parts]!",
+		"name": "Special Policy",
+		"text": "Choose your first and special policy!",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "SS Booster",
 				"uniques": [
-					"Free [SS Booster] appears <hidden from users>",
-					"Only available <after discovering [Advanced Ballistics]> <hidden from users>"
+		 			"Adopt [Oligarchy]"
 				]
 			},
 			{
 				"text": "SS Cockpit",
 				"uniques": [
-					"Free [SS Cockpit] appears <hidden from users>",
-					"Only available <after discovering [Satellites]> <hidden from users>"
+		 			"Adopt [Oligarchy]"
 				]
 			},
 			{
 				"text": "SS Engine",
 				"uniques": [
-					"Free [SS Engine] appears <hidden from users>",
-					"Only available <after discovering [Particle Physics]> <hidden from users>"
+		 			"Adopt [Oligarchy]"
+				]
+			},
+			{
+				"text": "SS Booster",
+				"uniques": [
+		 			"Adopt [Oligarchy]"
+				]
+			},
+			{
+				"text": "SS Cockpit",
+				"uniques": [
+		 			"Adopt [Oligarchy]"
+				]
+			},
+			{
+				"text": "SS Engine",
+				"uniques": [
+		 			"Adopt [Oligarchy]"
+				]
+			},
+			{
+				"text": "SS Booster",
+				"uniques": [
+		 			"Adopt [Oligarchy]"
+				]
+			},
+			{
+				"text": "SS Cockpit",
+				"uniques": [
+		 			"Adopt [Oligarchy]"
 				]
 			},
 			{
 				"text": "SS Stasis Chamber",
 				"uniques": [
-					"Free [SS Stasis Chamber] appears <hidden from users>",
-					"Only available <after discovering [Nanotechnology]> <hidden from users>"
+		 			"Adopt [Oligarchy]"
 				]
 			}
 		]
