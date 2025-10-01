@@ -83,7 +83,7 @@
 				"name": "Agriculture",
 				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				"uniques": ["Triggers a [Special Policy] event","[1] free random researchable Tech(s) from the [Ancient era]"]
+				"uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]
 			}
 		]
 	},
