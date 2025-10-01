@@ -1,5 +1,9 @@
 {
 	"isBaseRuleset": false,
+	"buildingsToRemove": [
+	],
+	"policiesToRemove": [
+	],
 	"religionsToRemove": [
 		"Wakan Tanka",
     "Pachamama",
