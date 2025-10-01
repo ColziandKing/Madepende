@@ -961,28 +961,6 @@
 
 			// Level 3
 			{
-				"name": "Populism",
-				"uniques": [
-                                        "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Fascism",
-				"uniques": [
-                                        "Empire enters golden age <upon conquering a city>",
-					"[Mounted] units gain the [Volley] promotion",
-                                        "[Armor] units gain the [Volley] promotion",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 5
-			},
-			{
 				"name": "Cult of Personality",
 				"uniques": [
 					// TODO: +50% Tourism to Civilizations fighting a common enemy
@@ -1208,26 +1186,6 @@
 			},
 
 			// Level 3
-			{
-				"name": "Communism",
-				"uniques": [
-					"[+15]% [Food] from every [Market]",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Socialism",
-				"uniques": [
-                                        "[+10]% [Science] [in all cities connected to capital]",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 5
-			},
 			{
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
@@ -1456,26 +1414,6 @@
 			},
 
 			// Level 3
-			{
-				"name": "Free Speech",
-				"uniques": [
-		                        "[+2 Food, +2 Production] from every specialist [in all cities]",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Constitution",
-				"uniques": [
-                                        "[+2 Happiness] [in all cities connected to capital]",
-					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
-				],
-				"row": 3,
-				"column": 5
-			},
 			{
 				"name": "Media Culture",
 				"uniques": [
