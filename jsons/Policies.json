@@ -752,9 +752,6 @@
 					"[+15]% [Tourism] resource production", // TODO: +15% Tourism when you have a active Trade Routes
 					"[+15]% [Tourism] resource production <after founding a religion>", // TODO: Sharing a Religion should give +15% Tourism
 					"[+15]% [Tourism] resource production <when not at war>", // TODO: Sharing Open Borders should give +15% Tourism
-					//"Comment [Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
-					//"[+15]% [Tourism] resource production <when number of [[{in foreign cities} {in cities following our religion}] Cities] is more than [0]> <hidden from users>",
-					//"[+15]% [Tourism] resource production <when number of [[{non-[your]} {Friendly Land} {Major} {City center}] Tiles] is more than [0]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"requires": [
