@@ -6,57 +6,57 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "SS Booster",
+				"text": "Free Religion",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Free Religion]"
 				]
 			},
 			{
-				"text": "SS Cockpit",
+				"text": "Educated Elite",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Educated Elite]"
 				]
 			},
 			{
-				"text": "SS Engine",
+				"text": "Trade Unions",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Trade Unions]"
 				]
 			},
 			{
-				"text": "SS Booster",
+				"text": "Religious Orders",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Religious Orders]"
 				]
 			},
 			{
-				"text": "SS Cockpit",
+				"text": "Monasticism",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Monasticism]"
 				]
 			},
 			{
-				"text": "SS Engine",
+				"text": "Planned Economy",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Planned Economy]"
 				]
 			},
 			{
-				"text": "SS Booster",
+				"text": "Monumentalism",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Monumentalism]"
 				]
 			},
 			{
-				"text": "SS Cockpit",
+				"text": "Free Trade",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Free Trade]"
 				]
 			},
 			{
-				"text": "SS Stasis Chamber",
+				"text": "Democracy",
 				"uniques": [
-		 			"Adopt [Oligarchy]"
+		 			"Adopt [Democracy]"
 				]
 			}
 		]
