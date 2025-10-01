@@ -8,88 +8,64 @@
 			{
 				"text": "Free Religion",
 				"uniques": [
-		 			"Adopt [Free Religion]"
+		 			"Adopt [Free Religion]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Educated Elite",
 				"uniques": [
-		 			"Adopt [Educated Elite]"
+		 			"Adopt [Educated Elite]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Trade Unions",
 				"uniques": [
-		 			"Adopt [Trade Unions]"
+		 			"Adopt [Trade Unions]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Religious Orders",
 				"uniques": [
-		 			"Adopt [Religious Orders]"
+		 			"Adopt [Religious Orders]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Monasticism",
 				"uniques": [
-		 			"Adopt [Monasticism]"
+		 			"Adopt [Monasticism]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Planned Economy",
 				"uniques": [
-		 			"Adopt [Planned Economy]"
+		 			"Adopt [Planned Economy]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Monumentalism",
 				"uniques": [
-		 			"Adopt [Monumentalism]"
+		 			"Adopt [Monumentalism]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Free Trade",
 				"uniques": [
-		 			"Adopt [Free Trade]"
+		 			"Adopt [Free Trade]",
+            "Play [policy] sound <hidden from users>"
 				]
 			},
 			{
 				"text": "Democracy",
 				"uniques": [
-		 			"Adopt [Democracy]"
-				]
-			}
-		]
-	},
-	
-	// Specia Tec
-	{
-		"name": "Special Tech",
-		"text": "Choose your first and special tech!",
-		"presentation": "Alert",
-		"choices": [
-			{
-				"text": "Pottery",
-				"uniques": [
-		 			"Start with [Pottery]"
-				]
-			},
-			{
-				"text": "Animal Husbandry",
-				"uniques": [
-		 			"Start with [Animal Husbandry]"
-				]
-			},
-			{
-				"text": "Archery",
-				"uniques": [
-		 			"Start with [Archery]"
-				]
-			},
-			{
-				"text": "Mining",
-				"uniques": [
-		 			"Start with [Mining]"
+		 			"Adopt [Democracy]",
+            "Play [policy] sound <hidden from users>"
 				]
 			}
 		]
