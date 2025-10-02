@@ -10,63 +10,54 @@
 				"text": "Free Religion",
 				"uniques": [
 		 			"Adopt [Free Religion]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Educated Elite",
 				"uniques": [
 		 			"Adopt [Educated Elite]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Trade Unions",
 				"uniques": [
 		 			"Adopt [Trade Unions]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Religious Orders",
 				"uniques": [
 		 			"Adopt [Religious Orders]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Monasticism",
 				"uniques": [
 		 			"Adopt [Monasticism]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Planned Economy",
 				"uniques": [
 		 			"Adopt [Planned Economy]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Monumentalism",
 				"uniques": [
 		 			"Adopt [Monumentalism]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Free Trade",
 				"uniques": [
 		 			"Adopt [Free Trade]",
-          "Play [policy] sound"
 				]
 			},
 			{
 				"text": "Democracy",
 				"uniques": [
 		 			"Adopt [Democracy]",
-          "Play [policy] sound"
 				]
 			}
 		]
