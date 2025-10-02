@@ -236,5 +236,5 @@
             // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
 			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
         ]
-    }
+    },
 ]
