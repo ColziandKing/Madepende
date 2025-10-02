@@ -57,7 +57,7 @@
         "tributeGlobalModifier": 50,
         "tributeLocalModifier": 150,
         "scoreFromPopulation": 4,
-        "scoreFromWonders": 25
+        "scoreFromWonders": 25,
     "maxSpyRank": 5,
 		"maxXPfromBarbarians": 500,
 		"naturalWonderCountAddedConstant": 45,
