@@ -50,7 +50,6 @@
     "name": "Conquer City State",
     "description": "It's time to erase the City-State of [cityState] from the map. You will be greatly rewarded for conquering them!",
     "influence": 80,
-    "duration": 30,
       "weightForCityStateType": {
           "Hostile": 2,
           "Friendly": 0.2,
