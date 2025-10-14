@@ -50,28 +50,6 @@
 			}
 		]
 	},
-
-	// Hidden Antiquity Sites
-	{
-		"columnNumber": 6,
-		"era": "Medieval era",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
-		"techs": [
-			{
-				// Used to allow use of "revealedBy" in Hidden Antiquity Site tile resources.
-				"name": "Hidden Antiquity Sites",
-				"row": 5,
-				"cost": 1,
-                "uniques": [
-					"[-100]% weight to this choice for AI decisions <hidden from users>",
-					"Only available <after adopting [Exploration Complete]>"
-				],
-				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon"
-			}
-		]
-	},
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
@@ -87,32 +65,4 @@
 			}
 		]
 	},
-
-	// Future Tech requires The Internet
-	{
-		"columnNumber": 17,
-		"era": "Future era",
-		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
-			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": [
-					"Globalization",
-					"Particle Physics",
-					"Nuclear Fusion",
-					"Nanotechnology",
-					"Stealth",
-					"The Internet" // New prerequisite in BNW.
-				],
-				"uniques": [
-					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-			}
-		]
-	}
 ]
