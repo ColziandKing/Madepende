@@ -1,4 +1,37 @@
-[[
+
+			{
+				"name": "Diplomatic Missions",
+				"uniques": [
+                "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Medieval era]>",
+			"Comment [Recommended for Freedom civs]",
+					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
+				],
+				"row": 1,
+				"column": 7
+			},
+        {
+            "name": "City Militia",
+            "uniques": [
+                "[-50]% maintenance costs <for [Military] units> <in [City center] tiles>", "[+2 Happiness, +1 Production] [in all cities with a garrison]",
+			"Comment [Recommended for Autocracy & Order civs]",
+					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
+            ],
+            "row": 2,
+            "column": 7
+        },
+        {
+            "name": "Autarky",
+            "uniques": [
+                "Quantity of strategic resources produced by the empire +[50]%",
+                "[+2 Food] [in all cities connected to capital]",
+			"Comment [Recommended for Autocracy & Order civs]",
+					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
+            ],
+            "row": 3,
+            "column": 7
+        },
+		
+		[[
   {
 		"name": "Skiuma",
 		"leaderName": "Sihl Eons",
