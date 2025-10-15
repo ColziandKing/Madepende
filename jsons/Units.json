@@ -26,4 +26,15 @@
         "upgradesTo": "Swordsman",
         "attackSound": "nonmetalhit"
     },
+	{
+		"name": "Tokl",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Hidden Antiquity Sites",
+		"uniques": ["Gain [2500000] [Gold]","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 ]
