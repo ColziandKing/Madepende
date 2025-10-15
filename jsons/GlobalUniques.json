@@ -4,7 +4,14 @@
   [
 		// Great Merchant Trade Mission Calculations
 		// https://civilization.fandom.com/wiki/Great_Merchant_(Civ5)#Formula
-			"[1] Unit Supply per [3] population [in all cities]",
+	  "Adopt [Volunteer Army] <for [City-States] Civilizations> <upon entering the [Industrial era]> <hidden from users>",
+                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city> <on foreign continents>",
+			"Gain a free [Granary] [in all cities] <upon entering the [Ancient era]> <hidden from users>",
+			"Gain a free [Market] [in all cities] upon entering the [Classical era]> <hidden from users>",
+			"Gain a free [Castle] [in all cities] <upon entering the [Medieval era]> <hidden from users>",
+			"Gain a free [University] [in all cities] <upon entering the [Renaissance era]> <hidden from users>",
+			"[+4] Unit Supply per [4] population [in all cities]",
+			"[-1] Unit Supply per city",
 	  "\"Borrows\" city names from other civilizations in the game",
 		"[-11]% Gold from Great Merchant trade missions <before the [Ancient era]>",
 		"[+11]% Gold from Great Merchant trade missions <during the [Classical era]>",
