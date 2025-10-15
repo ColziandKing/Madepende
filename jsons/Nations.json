@@ -1,0 +1,55 @@
+[
+	{
+		"name": "Canaan",
+		"leaderName": "Adonizedek",
+		"adjective": ["Canaan"],
+		"startBias":["None"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [237, 217, 166],
+		"innerColor": [62, 95, 184],
+		"uniqueName": "Land of Milk and Honey",
+		"uniques": ["[+1 Faith] from [Bonus resource] tiles [in all cities]"
+   ],
+		"cities": ["Zedek", "Jericho", "Hazor", "Megiddo", "Sidon", "Beth-Shan", "Kadesh", "Hebron", "Jarmuth", "Lachish", "Illiq", "Toqmaq", "Eglon", "Jaffa"],
+		"spyNames": ["Saki"]
+	},
+	{
+		"name": "The Buccaneers",
+		"leaderName": "Henry Morgan",
+		"adjective": ["The Buccaneers"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of north Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [18, 18, 18],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Letter of Marque",
+		"uniques": ["Earn [75]% of killed [Wounded] unit's [Cost] as [Gold]","[+100]% Health from pillaging tiles","No movement cost to pillage <for [All] units>"],
+		"cities": ["Port Royal","Tortuga","Nassau","Puerto Cabello","Petit-Goave","Leogane","Campeche","La Habana","St. Kitts","Nevis","Florida Keys","San Juan"],
+        "spyNames": ["Saki"]
+    },
+
+
+]
