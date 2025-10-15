@@ -32,7 +32,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"requiredTech": "Hidden Antiquity Sites",
+		"requiredTech": "Future Tech",
 		"uniques": ["Gain [2500000] [Gold]","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
