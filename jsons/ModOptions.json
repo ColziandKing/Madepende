@@ -36,7 +36,7 @@
     "Hanoi", "La Venta", "Lhasa", "Manila", "Tyre", "Valletta", "Vilnius", "Wellington", "Yerevan"
 	],
 	"uniques": [
-	  "Allow raze capital","Allow raze holy cities",
+	  "Allow raze capital","Allow raze holy city",
 	"Allow City States to spawn with additional units",
 	"Can trade civilization introductions for [100] Gold",
 		"Mod requires [Civ V - Gods & Kings]",
