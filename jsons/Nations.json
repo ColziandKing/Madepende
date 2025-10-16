@@ -1,4 +1,42 @@
 [
+{
+		"name": "Thailand",
+		"leaderName": "Rama V",
+		"adjective": ["Thailand]"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [37, 51, 77],
+		"innerColor": [255, 66, 48],
+		"uniqueName": "Southeast Asian Influence",
+		"uniques": ["[+2 Faith] from all [Wat] buildings","[+1 Food] from all [Monument] buildings","[+2 Culture] from all [University] buildings","[+1 Food] from all [Temple] buildings"],
+		"cities": ["Bangkok",
+"Chiang Mai",
+"Ayutthaya",
+"Pattaya",
+"Phuket",
+"Sukhothai",
+"Nakhon Ratchasima",
+"Udon Thani",
+"Surat Thani",
+"Chonburi",
+"Lampang",
+"Khon Kaen"],
+	},
+
     {
         "name": "Byzantium",
         "leaderName": "Theodora",
