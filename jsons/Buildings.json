@@ -66,14 +66,14 @@
         "name": "Writing Auditorium",
         "culture": 2,
         "faith": 1,
-        "specialistSlots": {"Writer": 1},
+        "specialistSlots": {"Artist": 1}, //Writer
         "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Vocal Chamber",
         "culture": 2,
         "faith": 1,
-        "specialistSlots": {"Musician": 1},
+        "specialistSlots": {"Artist": 1}, //Musician 
         "uniques": ["Unbuildable","Unsellable"]
     },
 {
