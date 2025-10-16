@@ -45,11 +45,11 @@
 	"constants": {
         "maxLakeSize": 5,
         "riverCountMultiplier": 0.99,
-        "religionLimitBase": 0,
+        "religionLimitBase": 8,
         "religionLimitMultiplier": 1,
         "unitSupplyPerPopulation": 10,
         "pantheonBase": 23,
-        "pantheonGrowth": 0,
+        "pantheonGrowth": 5,
         "tributeGlobalModifier": 50,
         "tributeLocalModifier": 150,
         "scoreFromPopulation": 4,
