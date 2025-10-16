@@ -56,7 +56,7 @@
 		
 		"favoredReligion": "Eastern Orthodox",
         "uniqueName": "Patriarchate of Constantinople",
-        "uniqueText": "May choose a second Founder belief upon founding a Religion, followed by Missionaries appearing after founding a religion",
+        "uniqueText": "May choose a second Founder belief upon founding a Religion, followed by Missionaries appearing after founding a Religion",
         "uniques": ["Gain a free [Founder] belief <upon founding a Religion>","[3] free [Missionary] units appear <after founding a Religion>"],
         "cities": [
             "Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
