@@ -1563,7 +1563,7 @@
 				"name": "Educated Elite",
 				"uniques": [
 					"Free Technology <upon discovering [Education] technology>",
-                                        "[+15]% [Production] [in all cities]",
+                                        "[+10]% [Production] [in all cities]",
 			"Comment [Recommended for Autocracy civs]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
 				],
