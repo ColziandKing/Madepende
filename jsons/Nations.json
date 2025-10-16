@@ -16,8 +16,8 @@
         "outerColor": [88,145,228],
         "innerColor": [80,23,135],
         "uniqueName": "Patriarchate of Constantinople",
-        "uniqueText": "May choose a second Founder belief upon founding a Religion and starts with the Avant Garde policy",
-        "uniques": ["Gain a free [Founder] belief <upon founding a Religion>","Adopt [Avant Garde]"],
+        "uniqueText": "May choose a second Founder belief upon founding a Religion",
+        "uniques": ["Gain a free [Founder] belief <upon founding a Religion>"],
         "cities": [
             "Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
             "Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
