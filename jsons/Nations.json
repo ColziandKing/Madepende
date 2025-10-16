@@ -88,7 +88,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [7] turns",
-			"[+10]% [Production] [in all cities] <if [Coffee House] is constructed in all [non-[Puppeted]] cities>"],
+			"[+15]% [Production] [in all cities] <if [Coffee House] is constructed in all [non-[Puppeted]] cities>"],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
