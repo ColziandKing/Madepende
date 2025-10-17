@@ -1,4 +1,68 @@
 [
+	{
+		"name": "Venice",
+		"leaderName": "Enrico Dandolo",
+		"adjective": ["Venetian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		"personality": "Enrico Dandolo",
+
+		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
+		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "When you will be gone, Sir, there will be more for me!",
+		"attacked": "You have revealed your purposes too early, my friend!",
+		"defeated": "A wrong calculation, on my part.",
+		"denounced": "I have little concern for such obvious bluster.",
+		"introduction": "Welcome to Venice. I am Doge Enrico Dandolo.",
+		"neutralHello": "Greetings.",
+		"hateHello": "You! What do you want?",
+		"tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+
+		"outerColor": [105,34,172],
+		"innerColor": [255,254,231],
+		"uniqueName": "Serenissima",
+		"uniques": [
+			"May not annex cities",
+			"Double the normal number of Trade Routes available",
+			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"May buy items in puppet cities",
+			"Preferred Ideology: Freedom"
+		],
+		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
+		"cities": ["Venice","Thessaloniki"]
+	},
+	{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"adjective": ["Hunnic"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Attila the Hun",
+
+        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
+        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
+		"defeated": "My people will mourn me not with tears, but with human blood.",
+		"denounced": "Do you know who you're dealing with?",
+		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
+		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
+		"neutralHello": "Good day to you.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+
+        "outerColor": [180, 178, 164],
+        "innerColor": [70, 0, 4],
+
+        "favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniques": [
+			"Cannot build [Settler] units","[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": ["Attila's Court","New Sirmium","Nova Aquileia","Neo Metz"],
+        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
+    },
 {
 		"name": "Thailand",
 		"leaderName": "Rama V",
