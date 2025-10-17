@@ -118,7 +118,7 @@
         "outerColor": [88,145,228],
         "innerColor": [80,23,135],
 		
-		"favoredReligion": "Eastern Orthodox",
+		"favoredReligion": "Eastern Orthodoxy",
         "uniqueName": "Patriarchate of Constantinople",
         "uniqueText": "May choose a second Founder belief upon founding a Religion, followed by Missionaries appearing after founding a Religion",
         "uniques": ["Gain a free [Founder] belief <upon founding a Religion>","[3] free [Missionary] units appear <after founding a Religion>"],
