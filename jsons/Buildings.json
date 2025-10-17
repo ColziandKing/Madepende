@@ -12,6 +12,17 @@
         ],
         "requiredTech": "Bronze Working"
     },
+	{
+		"name": "Frontier Outpost",
+		"replaces": "Armory",
+		"uniqueTo": "America",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[+25]% Production when constructing [Settler] units [in this city]",
+			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
     {
         "name": "Cothon",
         "replaces": "Lighthouse",
