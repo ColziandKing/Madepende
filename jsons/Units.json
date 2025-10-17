@@ -1,6 +1,28 @@
 
 [
 	{
+		"name": "Nau",
+		"uniqueTo": "Portugal",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 120,
+		"hurryCostModifier": 30,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Sight","Gain [50]-[250] [Gold]",
+"[This Unit] gains [10] XP <upon ending a turn in a [Grassland] tile>",
+			"Withdraws before melee combat <with [80]% chance>"
+			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
+			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Comanche Rider", // Named "Comanche Riders" in Civ5. Renamed in English.properties
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
