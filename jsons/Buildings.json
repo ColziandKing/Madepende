@@ -1,5 +1,18 @@
 [
     {
+        "name": "Dojo",
+        "replaces": "Barracks",
+        "uniqueTo": "Japan",
+        "hurryCostModifier": 25,
+        "science": 2,
+        "maintenance": 1,
+        "uniques": [
+            "New [Military] units start with [15] XP [in this city]",
+            "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
+        ],
+        "requiredTech": "Bronze Working"
+    },
+    {
         "name": "Cothon",
         "replaces": "Lighthouse",
         "uniqueTo": "Carthage",
