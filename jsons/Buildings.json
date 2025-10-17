@@ -1,4 +1,53 @@
 [
+    {
+        "name": "Cothon",
+        "replaces": "Lighthouse",
+        "uniqueTo": "Carthage",
+        "cost": 75,
+        "food": 1,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "Must be next to [Coast]",
+            "[+1 Food] from [Ocean] tiles [in this city]",
+            "[+1 Food] from [Coast] tiles [in this city]",
+            "[+1 Food] from [Fish] tiles [in this city]",
+            "[+1 Production] from [Water resource] tiles [in this city]"
+        ],
+        "requiredTech": "Optics"
+    },
+    {
+        "name": "Odeon",
+        "replaces": "Amphitheater",
+        "uniqueTo": "Greece",
+        "culture": 4,
+        "gold": 1,
+        "specialistSlots": {"Writer": 1},
+        "requiredBuilding": "Monument",
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Comment [Has 1 Great Work of Writing Slot]"
+        ],
+        "requiredTech": "Drama and Poetry"
+    },
+    {
+        "name": "Hippodrome",
+        "replaces": "Amphitheater",
+        "uniqueTo": "Byzantium",
+        "cost": 95,
+        "culture": 2,
+        "faith": 2,
+        "happiness": 1,
+        "requiredBuilding": "Monument",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Comment [Has 1 Great Work of Writing Slot]"
+        ],
+        "requiredTech": "Drama and Poetry"
+    },
 	{
 		"name": "Harbor",
 		"cost": 120,
