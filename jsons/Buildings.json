@@ -57,20 +57,17 @@
     },
     {
         "name": "Hippodrome",
-        "uniqueTo": "Byzantium",
-        "cost": 95,
+        "cost": 105,
+        "happiness": 3,
         "culture": 2,
-        "faith": 2,
-        "happiness": 1,
         "requiredBuilding": "Stable",
-        "maintenance": 2,
+        "maintenance": 3,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
 			"Only available <if [Stable] is constructed in all [non-[Puppeted]] cities>",
-            "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Mathematics"
     },
     {
         "name": "Plaza de Toros",
