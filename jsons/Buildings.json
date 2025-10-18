@@ -57,20 +57,62 @@
     },
     {
         "name": "Hippodrome",
-        "replaces": "Amphitheater",
         "uniqueTo": "Byzantium",
         "cost": 95,
         "culture": 2,
         "faith": 2,
         "happiness": 1,
-        "requiredBuilding": "Monument",
+        "requiredBuilding": "Stable",
         "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
+			"Only available <if [Stable] is constructed in all [non-[Puppeted]] cities>",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
         "requiredTech": "Drama and Poetry"
+    },
+    {
+        "name": "Plaza de Toros",
+        "replaces": "Circus",
+        "uniqueTo": "Spain",
+        "requiredNearbyImprovedResources": ["Ivory","Truffles","Furs","Horses","Cattle"],
+        "happiness": 2,
+        "culture": 2,
+        "hurryCostModifier": 25,
+        "requiredTech": "Trapping"
+    },
+    {
+        "name": "Quara U'y",
+        "replaces": "Stable",
+        "uniqueTo": "The Huns",
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [2] [Horses]",
+            "[+15]% Production when constructing [Mounted] units [in this city]",
+            "[+1 Production] from [Cattle] tiles [in this city]",
+            "[+1 Production, +1 Faith] from [Horses] tiles [in this city]",
+            "[+1 Production] from [Sheep] tiles [in this city]"
+        ],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "Falu Gruva",
+        "replaces": "Ironworks",
+        "uniqueTo": "Sweden",
+        "cost": 125,
+        "production": 8,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            "[+1 Production] from [Hill] tiles [in this city]",
+            "[+6 Culture] <after discovering [Flight]>"
+        ],
+        "requiredTech": "Metal Casting"
     },
 	{
 		"name": "Harbor",
