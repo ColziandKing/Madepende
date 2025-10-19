@@ -1,6 +1,21 @@
 
 [
 	{
+		"name": "Battering Ram",
+		"unitType": "Siege", // You might expect this to be a siege unit, but apparently it is not
+		"uniqueTo": "The Huns",
+		"movement": 2,
+		"strength": 10,
+		"cost": 95,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
+			"[-22]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Nau",
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
