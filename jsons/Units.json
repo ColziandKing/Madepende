@@ -11,7 +11,7 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
-			"[-22]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
+			"[-33]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
