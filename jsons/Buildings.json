@@ -1,16 +1,17 @@
 [
     {
         "name": "Dojo",
-        "replaces": "Barracks",
+        "replaces": "Armory",
         "uniqueTo": "Japan",
         "hurryCostModifier": 25,
-        "science": 2,
+        "culture": 1,
         "maintenance": 1,
+		"requiredBuilding": "Barracks",
         "uniques": [
             "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
-        "requiredTech": "Bronze Working"
+        "requiredTech": "Steel"
     },
 	{
 		"name": "Frontier Outpost",
