@@ -1,6 +1,21 @@
 
 [
 	{
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 66,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"movement": 2,
