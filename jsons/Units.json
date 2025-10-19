@@ -2,8 +2,7 @@
 [
 	{
 		"name": "Battering Ram",
-		"unitType": "Siege", // You might expect this to be a siege unit, but apparently it is not
-		"uniqueTo": "The Huns",
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"movement": 2,
 		"strength": 10,
 		"cost": 95,
@@ -11,8 +10,41 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
-			"[-33]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
+			"[-22]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", 
+			"[-33]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"[-33]% Strength <when defending>", "Must set up to ranged attack", "[-1] Sight"],
+		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
 	{
