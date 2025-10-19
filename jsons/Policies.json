@@ -263,7 +263,7 @@
 	// Piety
 	{
 		"name": "Piety",
-		"era": "Ancient era",
+		"era": "Classical era",
 		"priorities": {
             "Neutral": 0,
             "Cultural": 10,
