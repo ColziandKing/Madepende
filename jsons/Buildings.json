@@ -9,6 +9,7 @@
 		"requiredBuilding": "Barracks",
         "uniques": [
             "New [Military] units start with [15] XP [in this city]",
+			"[+1 Culture] from [Military Academy] buildings [in this city]",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
         "requiredTech": "Steel"
