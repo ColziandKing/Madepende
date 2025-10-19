@@ -1539,7 +1539,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Happiness] per [2] population [in all cities]"
+            "[+1 Happiness] per [2] population [in all cities]",
+		 "Adopt [Comedic Journalism]", 
         ],
         "policies": [
             {
@@ -1548,14 +1549,17 @@
                     "[+2 Happiness] from every [Broadcast Tower]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Gelotology",
                 "uniques": [
                     "[+1 Happiness] from every [Medical Lab]","[+1 Happiness] from every [Hospital]"
                 ],
-                "row": 1,
+				"requires": [
+					"Comedic Journalism"
+				],
+                "row": 2,
                 "column": 3
             },
             {
@@ -1563,7 +1567,10 @@
                 "uniques": [
                     "[+2 Culture, +1 Happiness] from every [Amphitheater]","[+2 Culture, +1 Happiness] from every [Theatre]"
                 ],
-                "row": 1,
+				"requires": [
+					"Gelotology"
+				],
+                "row": 3,
                 "column": 5
             },
             {
@@ -1571,7 +1578,10 @@
                 "uniques": [
                     "[+1 Happiness] from all [Culture] buildings <when below [-10] [Happiness]>"
                 ],
-                "row": 2,
+				"requires": [
+					"Gelotology"
+				],
+                "row": 3,
                 "column": 1
             },
             {
@@ -1579,7 +1589,10 @@
                 "uniques": [
                     "[+1 Happiness] per every [8] [Culture]"
                 ],
-                "row": 2,
+				"requires": [
+					"Gelotology"
+				],
+                "row": 3,
                 "column": 3
             },
             {
@@ -1611,7 +1624,7 @@
                     "[-50]% unhappiness from the number of cities"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Black Bloc",
@@ -1619,7 +1632,7 @@
                     "No movement cost to pillage"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 1
             },
             {
                 "name": "Insurgent Army",
@@ -1634,15 +1647,21 @@
                 "uniques": [
                     "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves","Allied City-States provide [Food] equal to [+40]% of what they produce for themselves"
                 ],
+				"requires": [
+					"Anarchism"
+				],
                 "row": 2,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Self-Organization",
                 "uniques": [
                     "[+15]% [Production] [in all cities]"
                 ],
-                "row": 2,
+				"requires": [
+					"Mutual Aid"
+				],
+                "row": 3,
                 "column": 3
             },
             {
