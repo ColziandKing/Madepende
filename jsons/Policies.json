@@ -24,7 +24,7 @@
 					"[+1 Happiness] per [10] population [in all cities]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Oligarchy",
@@ -34,7 +34,7 @@
 					"[-100]% weight to this choice for AI decisions"
 				],
 				"row": 1,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Legalism",
@@ -45,7 +45,7 @@
 					"Oligarchy"
 				],
 				"row": 2,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Landed Elite",
@@ -57,7 +57,7 @@
 					"Legalism"
 				],
 				"row": 3,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Monarchy",
@@ -68,7 +68,7 @@
 					"Legalism"
 				],
 				"row": 3,
-				"column": 4
+				"column": 3
 			},
             {
                 "name": "Monumentalism",
@@ -79,7 +79,7 @@
 					"Legalism"
 				],
                 "row": 3,
-                "column": 6
+                "column": 5
             },
 			{
 				"name": "Tradition Complete",
@@ -461,7 +461,7 @@
 					"[+2 Science] from every specialist [in all cities]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Humanism",
@@ -470,7 +470,7 @@
 					"[Great Scientist] is earned [25]% faster"
 				],
 				"row": 1,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Free Thought",
@@ -482,7 +482,7 @@
 					"Humanism"
 				],
 				"row": 2,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Sovereignty",
@@ -493,7 +493,7 @@
 					"Secularism"
 				],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Scientific Revolution",
@@ -505,7 +505,7 @@
 					"Sovereignty"
 				],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Rationalism Complete",
