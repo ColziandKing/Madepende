@@ -1633,17 +1633,49 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+2 Production, +2 Food] per [2] population [in capital]",
-		 "Adopt [Black Bloc]", 
-        ],
+            "When declaring friendship, both parties gain a [15]% boost to great person generation", 
+			"Adopt [Black Bloc]"
+		],
         "policies": [
+            {
+                "name": "Anarchism",
+                "uniques": [
+                    "[-50]% unhappiness from the number of cities"
+                ],
+                "row": 1,
+                "column": 1
+            },
             {
                 "name": "Black Bloc",
                 "uniques": [
                     "No movement cost to pillage"
                 ],
                 "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Insurgent Army",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mutual Aid",
+                "uniques": [
+                    "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves","Allied City-States provide [Food] equal to [+40]% of what they produce for themselves"
+                ],
+                "row": 2,
                 "column": 1
+            },
+            {
+                "name": "Self-Organization",
+                "uniques": [
+                    "[+15]% [Production] [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
             },
 			//JL
             {
@@ -1704,11 +1736,10 @@
                 "row": 3,
                 "column": 4
             },
-			
             {
                 "name": "Voluntarism Complete",
                 "uniques": [
-                    "[+3 Production, +3 Food] per [2] population [in all cities]"
+                    "Empire enters golden age <upon declaring war on [Major] Civilizations>",
                 ]
             }
         ]
