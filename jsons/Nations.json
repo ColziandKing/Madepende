@@ -189,7 +189,7 @@
         "innerColor": [255,255,255],
 
 		"favoredReligion": "Christianity",
-		"uniqueName": "Diplomatic Marriage",
+		"uniqueName": "Cultural Finesse",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [7] turns",
 			"[+15]% [Production] [in all cities] <if [Coffee House] is constructed in all [non-[Puppeted]] cities>"],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
