@@ -1638,50 +1638,12 @@
         ],
         "policies": [
             {
-                "name": "Anarchism",
-                "uniques": [
-                    "[-50]% unhappiness from the number of cities"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
                 "name": "Black Bloc",
                 "uniques": [
                     "No movement cost to pillage"
                 ],
                 "row": 1,
                 "column": 1
-            },
-            {
-                "name": "Insurgent Army",
-                "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Mutual Aid",
-                "uniques": [
-                    "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves","Allied City-States provide [Food] equal to [+40]% of what they produce for themselves"
-                ],
-				"requires": [
-					"Anarchism"
-				],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Self-Organization",
-                "uniques": [
-                    "[+15]% [Production] [in all cities]"
-                ],
-				"requires": [
-					"Mutual Aid"
-				],
-                "row": 3,
-                "column": 3
             },
 			//JL
             {
@@ -1703,8 +1665,6 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    //"[+1] population [in all cities]",
-                    //"[+1 Happiness] [in all cities]",
                     "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>",
                 ],
