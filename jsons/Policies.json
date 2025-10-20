@@ -1681,7 +1681,7 @@
             {
                 "name": "Foreign Aid",
                 "uniques": [
-                    "Gain [15] Influence with a [Military] gift to a City-State", "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gain [15] Influence with a [Military] gift to a City-State", "Military Units gifted from City-States start with [+10] XP"
                 ],
                 "row": 1,
                 "column": 1
