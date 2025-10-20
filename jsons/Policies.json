@@ -1605,16 +1605,6 @@
                 "column": 4
             },
             {
-                "name": "Machiavellianism",
-                "uniques": [
-                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <when espionage is enabled> <hidden from users>", "[+25]% spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
-			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations] <when espionage is disabled>",
-                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <when espionage is disabled> <hidden from users>"
-                ],
-                "row": 1,
-                "column": 2
-            },
-            {
                 "name": "Counter Intelligence",
                 "uniques": [
 			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
@@ -1633,23 +1623,13 @@
                 "column": 2
             },
             {
-                "name": "Diplomatic Obstructionism",
-                "requires": ["Counter Intelligence", "Resource Contracts"],
+                "name": "Resource Contracts",
+                "requires": ["Counter Intelligence", "Mercenary Opportunism"],
                 "uniques": [
 		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ],
                 "row": 3,
                 "column": 2
-            },
-		{
-                "name": "Resource Contracts",
-                "requires": ["Machiavellianism", "Mercenary Opportunism"],
-                "uniques": [
-		            "[+100]% resources gifted by City-States",
-                    "[+50]% Happiness from luxury resources gifted by City-States"
-                ],
-                "row": 2,
-                "column": 4
             },
             {
                 "name": "Humor Complete",
@@ -1722,13 +1702,6 @@
             },
 			//JL
             {
-                "name": "Free Market",
-                "uniques": ["[+1] Happiness from each type of luxury resource"],
-                "requires": ["Free Trade"],
-                "row": 2,
-                "column": 4
-            },
-            {
                 "name": "Colonialism",
                 "uniques": [
                     //"[+1] population [in all cities]",
@@ -1736,22 +1709,22 @@
                     "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>",
                 ],
-                "row": 1,
-                "column": 5
+                "row": 2,
+                "column": 2
             },
             {
                 "name": "State Logistics",
                 "uniques": [
                     "[-25]% maintenance on road & railroads", "Improves movement speed on roads"
                 ],
-                "requires": ["Professional Army"],
+                "requires": ["Black Bloc"],
                 "row": 3,
                 "column": 1
             },
             {
                 "name": "Market Economy",
                 "uniques": ["[-50]% maintenance cost for [all] buildings [in all cities]"],
-                "requires": ["Free Market"],
+                "requires": ["Colonialism"],
                 "row": 3,
                 "column": 4
             },
