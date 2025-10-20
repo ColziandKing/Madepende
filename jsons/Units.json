@@ -1,5 +1,35 @@
 
 [
+    {
+        "name": "Pioneer",
+        "uniqueTo": "America",
+        "replaces": "Settler",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 5,
+        "cost": 106,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ],
+        "promotions": ["Ignore terrain cost"],
+        "hurryCostModifier": 20,
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Ranchero",
+        "replaces": "Settler",
+        "uniqueTo": "Mexico",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 106,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Requires at least [2] population"
+        ],
+        "hurryCostModifier": 20
+    },
 	{
 		"name": "Dromon",
 		"unitType": "Ranged Water",
