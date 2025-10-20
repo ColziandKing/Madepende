@@ -1598,12 +1598,21 @@
 			//JL
             {
                 "name": "Resource Contracts",
-                "requires": ["Comedic Journalism"],
+                "requires": ["Kabarett"],
                 "uniques": [
 		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ],
-                "row": 2,
+                "row": 3,
                 "column": 1
+            },
+            {
+                "name": "World Expo",
+                "requires": ["Political Cartoon"],
+                "uniques": [
+                    "Science gained from research agreements [+50]%", "Allied City-States will occasionally gift Great People"
+                ],
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Humor Complete",
@@ -1675,6 +1684,14 @@
                 "column": 3
             },
 			//JL
+            {
+                "name": "Foreign Aid",
+                "uniques": [
+                    "Gain [15] Influence with a [Military] gift to a City-State", "Gifts of Gold to City-States generate [25]% more Influence"
+                ],
+                "row": 1,
+                "column": 3
+            },
             {
                 "name": "Mercenary Opportunism",
                 "uniques": [
