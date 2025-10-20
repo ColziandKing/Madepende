@@ -1595,6 +1595,62 @@
                 "row": 3,
                 "column": 3
             },
+			//JL
+            {
+                "name": "Mercenary Opportunism",
+                "uniques": [
+                    "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Machiavellianism",
+                "uniques": [
+                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <when espionage is enabled> <hidden from users>", "[+25]% spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations] <when espionage is disabled>",
+                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <when espionage is disabled> <hidden from users>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Counter Intelligence",
+                "uniques": [
+			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
+			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
+                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
+		    "Comment [+50% [Production] when constructing defensive buildings]",
+		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Air Defense System] buildings [in all cities] <hidden from users>"
+                ],
+                "requires": ["Machiavellianism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Diplomatic Obstructionism",
+                "requires": ["Counter Intelligence", "Resource Contracts"],
+                "uniques": [
+		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ],
+                "row": 3,
+                "column": 2
+            },
+		{
+                "name": "Resource Contracts",
+                "requires": ["Machiavellianism", "Mercenary Opportunism"],
+                "uniques": [
+		            "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
+                ],
+                "row": 2,
+                "column": 4
+            },
             {
                 "name": "Humor Complete",
                 "uniques": [
@@ -1665,6 +1721,40 @@
                 "column": 3
             },
 			//JL
+            {
+                "name": "Free Market",
+                "uniques": ["[+1] Happiness from each type of luxury resource"],
+                "requires": ["Free Trade"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Colonialism",
+                "uniques": [
+                    //"[+1] population [in all cities]",
+                    //"[+1 Happiness] [in all cities]",
+                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
+                    "Free [Worker] appears <upon founding a city>",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "State Logistics",
+                "uniques": [
+                    "[-25]% maintenance on road & railroads", "Improves movement speed on roads"
+                ],
+                "requires": ["Professional Army"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Market Economy",
+                "uniques": ["[-50]% maintenance cost for [all] buildings [in all cities]"],
+                "requires": ["Free Market"],
+                "row": 3,
+                "column": 4
+            },
 			
             {
                 "name": "Voluntarism Complete",
