@@ -1597,31 +1597,13 @@
             },
 			//JL
             {
-                "name": "Counter Intelligence",
-                "uniques": [
-			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
-			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
-                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
-		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
-		    "Comment [+50% [Production] when constructing defensive buildings]",
-		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
-		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
-		    "[+50]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
-		    "[+50]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
-		    "[+50]% Production when constructing [Air Defense System] buildings [in all cities] <hidden from users>"
-                ],
-                "requires": ["Machiavellianism"],
-                "row": 2,
-                "column": 2
-            },
-            {
                 "name": "Resource Contracts",
-                "requires": ["Counter Intelligence", "Mercenary Opportunism"],
+                "requires": ["Comedic Journalism"],
                 "uniques": [
 		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ],
-                "row": 3,
-                "column": 2
+                "row": 2,
+                "column": 1
             },
             {
                 "name": "Humor Complete",
@@ -1694,6 +1676,14 @@
             },
 			//JL
             {
+                "name": "Foreign Aid",
+                "uniques": [
+                    "Gain [15] Influence with a [Military] gift to a City-State", "Gifts of Gold to City-States generate [25]% more Influence"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
                 "name": "Mercenary Opportunism",
                 "uniques": [
                     "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
@@ -1711,6 +1701,24 @@
                 ],
                 "row": 2,
                 "column": 2
+            {
+                "name": "Counter Intelligence",
+                "uniques": [
+			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
+			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
+                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
+		    "Comment [+50% [Production] when constructing defensive buildings]",
+		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Air Defense System] buildings [in all cities] <hidden from users>"
+                ],
+                "requires": ["Mercenary Opportunism"],
+                "row": 2,
+                "column": 4
+            },
             },
             {
                 "name": "State Logistics",
