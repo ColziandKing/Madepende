@@ -33,6 +33,17 @@
 			"[+2 Faith] from every [Pearls]"
 		]
     },
+    {
+        "name": "Nature Shamans",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Culture] from every [Rare feature]"]
+    },
+    {
+        "name": "Oracles of the Mountains",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Happiness, -1 Food] from every [Mountain]"]
+    },
+    {
 
 	// Founder
     {
@@ -62,18 +73,88 @@
         "type": "Founder",
         "uniques": ["[+4 Culture] [in capital]"]
     },
+    {
+        "name": "Divine Leadership",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness, +1 Gold] from every [2] global followers [in capital]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Holy Patronage",
+        "type": "Founder",
+        "uniques": ["Gifts of Gold to City-States generate [25]% more Influence", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Just Legislators",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness, +1 Culture, +1 Faith] per [2] social policies adopted", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
 
 	// Follower
     {
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]",
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]] & may buy [Monument], [Amphitheater], [Opera House] with [Faith] in cities following this religion]", 
+			"May buy [Monument] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", 
+			"May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
 			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
         ],
 		"civilopediaText": [
 			{ "text": "Hermitage", "link": "Building/Hermitage" }
 		]
+    },
+    {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Science] from every [Wonder]"]
+    },
+    {
+        "name": "Divine Spark",
+        "type": "Follower",
+        "uniques": ["[+25]% Great Person generation [in this city]"]
+    },
+    {
+        "name": "Exotic Novelties",
+        "type": "Follower",
+        "uniques": ["[+2 Happiness, +2 Gold, +2 Faith] [in cities following this religion] <during We Love The King Day>"]
+    },
+    {
+        "name": "Grace for Labour",
+        "type": "Follower",
+        "uniques": ["[+1 Production] from every [Mine] <in [Strategic resource] tiles>", "[+1 Gold] from every [Mine] <in [Luxury resource] tiles>"]
+    },
+    {
+        "name": "Holy Expansion",
+        "type": "Follower",
+        "uniques": ["Gain control over [1] tiles [in this city] <upon expending a [Missionary] unit>"]
+    },
+    {
+        "name": "Love Thy Neighbour",
+        "type": "Follower",
+        "uniques": ["[-10]% Unhappiness from [Population] [in this city]"]
+    },
+    {
+        "name": "Peace Gardens",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness, +1 Culture] from every [Garden]"]
+    },
+    {
+        "name": "Theological Schools",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from all [Science] buildings <in cities with at least [6] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Trade Osmosis",
+        "type": "Follower",
+        "uniques": ["[+1 Faith, +1 Science] from [Trading post] tiles [in this city]"]
+    },
+    {
+        "name": "Welcome the Needy",
+        "type": "Follower",
+        "uniques": ["[+1] population [in this city] <upon entering a Golden Age>", "[-10]% Unhappiness from [Population] [in this city] <during a Golden Age>"]
     },
 
     // Enhancer
@@ -124,6 +205,31 @@
         "name": "Jizya",
         "type": "Enhancer",
         "uniques": ["[+6 Production, +6 Gold] from every [Grand Temple]"]
+    },
+    {
+        "name": "Holy Alliance",
+        "type": "Enhancer",
+        "uniques": ["Comment [Gain 150 [Gold] and [Faith] upon declaring friendship or upon declaring a defensive pact (modified by game speed)]", "Gain [150] [Gold] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Gold] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>"]
+    },
+    {
+        "name": "Learning Centres",
+        "type": "Enhancer",
+        "uniques": ["[+3 Science, +1 Faith] <in cities with at least [2] [Specialists]>"]
+    },
+    {
+        "name": "Martial Orthodoxy",
+        "type": "Enhancer",
+        "uniques": ["[-15]% Gold cost of upgrading <for [Military] units>", "[+15]% XP gained from combat <for [Military] units>"]
+    },
+    {
+        "name": "Stupor Mundi",
+        "type": "Enhancer",
+        "uniques": ["Instantly gain [100] [Golden Age points] <upon discovering a Natural Wonder>", "[+4 Faith] for every known Natural Wonder"]
+    },
+    {
+        "name": "Wandering Missionaries",
+        "type": "Enhancer",
+        "uniques": ["[+1] Movement <for [Religious Unit] units> <on foreign continents>", "[+25]% Spread Religion Strength <for [Religious Unit] units> <on foreign continents>"]
     },
 
     // Reformation Beliefs
@@ -236,5 +342,19 @@
             // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
 			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
         ]
+    },
+    {
+        "name": "Doctrinal Esoterism",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>","[-25]% enemy spy effectiveness [in this city]", "[+1 Faith, +2 Science] [in this city]"
+		]
+    },
+    {
+        "name": "Hermeticism",
+        "type": "Enhancer",
+        "uniques": [
+            "Only available <after adopting [Reformation]>","Gain [+50] [Science] <upon expending a [Religious Unit] unit> <(modified by game speed)>", "Gain [+50] [Science] <upon expending a [Religious Unit] unit> <(modified by game speed)> <after discovering [Chemistry]>"
+		] 
     },
 ]
