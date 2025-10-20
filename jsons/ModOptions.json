@@ -1,5 +1,21 @@
 {
 	"isBaseRuleset": false,
+	"policyBranchesToRemove": [
+		"Voluntarism",
+		"Humor",
+	],
+	"policiesToRemove": [
+		"Comedic Journalism",
+		"Political Satire",
+		"Political Cartoon",
+		"Kabarett",
+		"Gelotology",
+		"Insurgent Army",
+		"Black Bloc",
+		"Anarchism",
+		"Mutual Aid",
+		"Self-Organization"
+	],
 	"religionsToRemove": [
 		"Wakan Tanka",
     "Pachamama",
