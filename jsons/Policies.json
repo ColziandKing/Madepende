@@ -1700,6 +1700,7 @@
                     "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>",
                 ],
+                "requires": ["Foreign Aid"],
                 "row": 2,
                 "column": 2
 				},
