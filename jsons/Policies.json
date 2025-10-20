@@ -1676,14 +1676,6 @@
             },
 			//JL
             {
-                "name": "Foreign Aid",
-                "uniques": [
-                    "Gain [15] Influence with a [Military] gift to a City-State", "Gifts of Gold to City-States generate [25]% more Influence"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
                 "name": "Mercenary Opportunism",
                 "uniques": [
                     "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
