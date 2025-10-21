@@ -1,4 +1,34 @@
 
+	{
+		"name": "Fluyt",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Netherlands",
+		"movement": 6,
+		"strength": 20,
+		"cost": 200,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Ironclad",
+		"promotions": ["[Privateer] ability"],
+		"uniques": ["Can move after attacking", "Gain [100]-[400] [Gold] <by consuming this unit> <in [Major] tiles> <in tiles without [The Netherlands]> <(modified by game speed)>", "Cost increases by [10] when built"],
+		"attackSound": "cannon"
+	},
+    {
+        "name": "Spomenik",
+        "replaces": "Museum",
+        "uniqueTo": "Yugoslavia",
+        "culture": 2,
+        "percentStatBonus": {"science": 20, "culture": 10},
+        "requiredBuilding": "Amphitheater",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredTech": "Archaeology",
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Comment [Has [2] Great Work of Art Slots]"
+        ]
+    },"[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+10] XP"
 			{
 				"name": "Diplomatic Missions",
 				"uniques": [
