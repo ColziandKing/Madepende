@@ -1,9 +1,38 @@
 
 [
     {
+        "name": "Koa",
+        "replaces": "Longswordsman",
+        "uniqueTo": "Polynesia",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 23,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "promotions": ["Amphibious"],
+        "upgradesTo": "Musketman",
+        "obsoleteTech": "Rifling",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Pittore",
+        "uniqueTo": "Italy",
+        "replaces": "Great Artist",
+        "unitType": "Civilian",
+        "uniques": [
+            "Empire enters a [12]-turn Golden Age <by consuming this unit>",
+            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Is part of Great Person group [Artist]",
+            "Great Person - [Culture]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
         "name": "Herskip",
         "replaces": "Trireme",
-        "uniqueTo": "Denmark",
+        "uniqueTo": "Barbarians",
         "unitType": "Melee Water",
         "movement": 6,
         "strength": 10,
@@ -21,7 +50,7 @@
 		"name": "Longship",
 		"unitType": "Melee Water",
 		"replaces": "Galleass",
-		"uniqueTo": "Norway",
+		"uniqueTo": "Denmark",
 		"movement": 4,
 		"strength": 16,
 		"cost": 107,
