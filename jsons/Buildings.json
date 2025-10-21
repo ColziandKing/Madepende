@@ -100,7 +100,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
-            "All newly-trained [relevant] units [in this city] receive the [Dojo] promotion","Destroyed when the city is captured"
+            "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion","Destroyed when the city is captured"
 		]
 	},
 
