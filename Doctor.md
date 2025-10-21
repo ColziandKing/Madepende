@@ -1,4 +1,6 @@
 
+                    "[2] free [Composite Bowman] units appear",
+                    "[1] free [Hand-Axe] units appear",
 	{
 		"name": "Fluyt",
 		"unitType": "Melee Water",
