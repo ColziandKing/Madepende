@@ -1,13 +1,39 @@
 
 [
 	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 42,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>" // Only gifted from Militaristic City-States, or Volunteer Army policy
+		],
+		"promotions": [
+			"Foreign Lands Bonus"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Volunteer Army",
+				"link": "Policy/Volunteer Army"
+			}
+		]
+	},
+	{
 		"name": "Galley",
 		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles",
+			"Can move immediately once bought",
+			"Only available <for [City-States] Civilizations>"],
 		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -53,6 +79,7 @@
         "requiredTech": "Sailing",
         "uniques": [
             "Can move after attacking",
+                    "[2] free [Swordsman] units appear <by consuming this unit>",
             "[+33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
