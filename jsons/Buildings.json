@@ -1,5 +1,57 @@
 [
     {
+        "name": "Grand Canal of Venice",
+        "uniqueTo": "Venice",
+        "replaces": "East India Company",
+        "cost": 125,
+        "gold": 4,
+        "percentStatBonus": {"gold": 25},
+        "isNationalWonder": true,
+        "uniques": [
+            "Cost increases by [30] per owned city",
+            "Provides [2] [Trade Route]",
+            "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+            "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+        ],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Saint Peter's Basilica",
+        "replaces": "Grand Temple",
+        "uniqueTo": "Papal State",
+        "cost": 125,
+        "culture": 1,
+        "faith": 8,
+        "uniques": [
+            "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+            "Cost increases by [30] per owned city",
+            "[+100]% Natural religion spread [in this city]",
+            "Only available <when religion is enabled>",
+            "Can only be built <in [Holy] cities>",
+            "Gain a free [Cathedral] [in this city]",
+            "Free [Great Prophet] appears"
+        ],
+        "requiredTech": "Theology",
+        "isNationalWonder": true
+    },
+    {
+        "name": "Basilica",
+        "replaces": "Museum",
+        "uniqueTo": "Italy",
+        "culture": 2,
+        "percentStatBonus": {"culture": 10},
+        "specialistSlots": {"Artist": 2},
+        "greatPersonPoints": {"Great Artist": 2},
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredTech": "Industrialization",
+        "uniques": [
+            "Destroyed when the city is captured",
+            "[+20]% Great Person generation [in this city]",
+            "Comment [Has [2] Great Work of Art Slots]"
+        ]
+    },
+    {
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
