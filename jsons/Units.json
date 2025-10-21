@@ -1,6 +1,37 @@
 
 [
     {
+        "name": "Herskip",
+        "replaces": "Trireme",
+        "uniqueTo": "Denmark",
+        "unitType": "Melee Water",
+        "movement": 6,
+        "strength": 10,
+        "cost": 45,
+        "requiredTech": "Sailing",
+        "uniques": [
+            "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>"
+        ],
+        "upgradesTo": "Caravel",
+        "obsoleteTech": "Astronomy",
+        "attackSound": "nonmetalhit"
+    },
+	{
+		"name": "Longship",
+		"unitType": "Melee Water",
+		"replaces": "Galleass",
+		"uniqueTo": "Norway",
+		"movement": 4,
+		"strength": 16,
+		"cost": 107,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Privateer",
+		"uniques": ["Can move after attacking", "[1] additional attacks per turn"],
+		"attackSound": "metalhit"
+	},
+    {
         "name": "Pioneer",
         "uniqueTo": "America",
         "replaces": "Settler",
