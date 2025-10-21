@@ -1,4 +1,13 @@
 [
+	{
+		"name": "Stonehenge",
+		"faith": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+		"uniques": ["Gain a free [Pantheon] belief"],
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
     {
         "name": "Grand Canal of Venice",
         "uniqueTo": "Venice",
