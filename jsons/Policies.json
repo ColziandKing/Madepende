@@ -1190,7 +1190,7 @@
 					// TODO: +34% Tourism to other Order Civilizations.
 					"Provides [2] [Tourism]",
                     "[Gunpowder] units gain the [Ambush I] promotion",
-                    "All newly-trained [Gunpowder] units [in all cities] receive the [Ambush I] promotion",
+                    "All newly-trained [Gunpowder] units [in all cities] receive the [Ambush I] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1461,8 +1461,8 @@
 				"uniques": [
 					"[+15]% Production when constructing [Military] units [in all cities]",
 					"Gain [15] Influence with a [Military] gift to a City-State",
-                    "[Fighter] units gain the [Sortir] promotion",
-                    "All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
+                    "[Fighter] units gain the [Sortie] promotion",
+                    "All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
