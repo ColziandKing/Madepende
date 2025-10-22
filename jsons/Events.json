@@ -62,4 +62,126 @@
 			}
 		]
 	},
+	{
+		"name": "Medieval Policy",
+		"text": "Don't be shy, choose a policy!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Colonialism",
+				"uniques": [
+		 			"Adopt [Colonialism]",
+				]
+			},
+			{
+				"text": "Educated Elite",
+				"uniques": [
+		 			"Adopt [Educated Elite]",
+				]
+			},
+			{
+				"text": "Trade Unions",
+				"uniques": [
+		 			"Adopt [Trade Unions]",
+				]
+			},
+			{
+				"text": "Religious Orders",
+				"uniques": [
+		 			"Adopt [Religious Orders]",
+				]
+			},
+			{
+				"text": "Monasticism",
+				"uniques": [
+		 			"Adopt [Monasticism]",
+				]
+			},
+			{
+				"text": "Planned Economy",
+				"uniques": [
+		 			"Adopt [Planned Economy]",
+				]
+			},
+			{
+				"text": "Diplomatic Missions",
+				"uniques": [
+		 			"Adopt [Diplomatic Missions]",
+				]
+			},
+			{
+				"text": "Free Trade",
+				"uniques": [
+		 			"Adopt [Free Trade]",
+				]
+			},
+			{
+				"text": "Autarky",
+				"uniques": [
+		 			"Adopt [Autarky]",
+				]
+			}
+		]
+	},
+	{
+		"name": "Industrial Policy",
+		"text": "You have reached this era, behold the machinery and a new age for mankind!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Free Religion",
+				"uniques": [
+		 			"Adopt [Free Religion]",
+				]
+			},
+			{
+				"text": "Educated Elite",
+				"uniques": [
+		 			"Adopt [Educated Elite]",
+				]
+			},
+			{
+				"text": "Trade Unions",
+				"uniques": [
+		 			"Adopt [Trade Unions]",
+				]
+			},
+			{
+				"text": "Religious Orders",
+				"uniques": [
+		 			"Adopt [Religious Orders]",
+				]
+			},
+			{
+				"text": "Monasticism",
+				"uniques": [
+		 			"Adopt [Monasticism]",
+				]
+			},
+			{
+				"text": "Planned Economy",
+				"uniques": [
+		 			"Adopt [Planned Economy]",
+				]
+			},
+			{
+				"text": "Diplomatic Missions",
+				"uniques": [
+		 			"Adopt [Diplomatic Missions]",
+				]
+			},
+			{
+				"text": "Free Trade",
+				"uniques": [
+		 			"Adopt [Free Trade]",
+				]
+			},
+			{
+				"text": "Autarky",
+				"uniques": [
+		 			"Adopt [Autarky]",
+				]
+			}
+		]
+	},
 ]
