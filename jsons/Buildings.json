@@ -160,6 +160,7 @@
         "name": "Odeon",
         "replaces": "Amphitheater",
         "uniqueTo": "Greece",
+        "cost": 95,
         "culture": 4,
         "gold": 1,
         "specialistSlots": {"Writer": 1},
@@ -173,16 +174,20 @@
     },
     {
         "name": "Hippodrome",
-        "cost": 105,
-        "happiness": 3,
+        "replaces": "Amphitheater",
+        "uniqueTo": "Byzantium",
+        "cost": 95,
         "culture": 2,
-		"requiredBuilding": "Stable",
-        "maintenance": 3,
+        "faith": 2,
+        "happiness": 1,
+        "requiredBuilding": "Monument",
+        "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Mathematics"
+        "requiredTech": "Drama and Poetry"
     },
     {
         "name": "Plaza de Toros",
