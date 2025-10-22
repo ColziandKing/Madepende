@@ -19,8 +19,8 @@
         "uniques": [
             "Cost increases by [30] per owned city",
             "Provides [2] [Trade Route]",
-            "[+4 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+4 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+            "[+4 Gold] from [Trading post] tiles [in this city]",
+            "[+4 Gold] from [Fishing Boats] tiles [in this city]"
         ],
         "requiredTech": "Currency"
     },
