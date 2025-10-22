@@ -176,12 +176,11 @@
         "cost": 105,
         "happiness": 3,
         "culture": 2,
-        "requiredBuilding": "Stable",
+		"requiredBuilding": "Stable",
         "maintenance": 3,
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
-			"Only available <if [Stable] is constructed in all [non-[Puppeted]] cities>",
         ],
         "requiredTech": "Mathematics"
     },
