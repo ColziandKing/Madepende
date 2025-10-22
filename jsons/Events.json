@@ -63,10 +63,16 @@
 		]
 	},
 	{
-		"name": "Medieval Policy",
-		"text": "Don't be shy, choose a policy!",
+		"name": "New Policy",
+		"text": "Don't be shy, choose a policy. You have reached this era, behold the machinery and a new age for mankind!",
 		"presentation": "Alert",
 		"choices": [
+			{
+				"text": "Resource Contracts",
+				"uniques": [
+		 			"Adopt [Resource Contracts]",
+				]
+			},
 			{
 				"text": "Colonialism",
 				"uniques": [
@@ -74,112 +80,45 @@
 				]
 			},
 			{
-				"text": "Educated Elite",
+				"text": "Counter Intelligence",
 				"uniques": [
-		 			"Adopt [Educated Elite]",
+		 			"Adopt [Counter Intelligence]",
 				]
 			},
 			{
-				"text": "Trade Unions",
+				"text": "Black Bloc",
 				"uniques": [
-		 			"Adopt [Trade Unions]",
+		 			"Adopt [Black Bloc]",
 				]
 			},
 			{
-				"text": "Religious Orders",
+				"text": "State Logistics",
 				"uniques": [
-		 			"Adopt [Religious Orders]",
+		 			"Adopt [State Logistics]",
 				]
 			},
 			{
-				"text": "Monasticism",
+				"text": "Mercenary Opportunism",
 				"uniques": [
-		 			"Adopt [Monasticism]",
+		 			"Adopt [Mercenary Opportunism]",
 				]
 			},
 			{
-				"text": "Planned Economy",
+				"text": "Market Economy",
 				"uniques": [
-		 			"Adopt [Planned Economy]",
+		 			"Adopt [Market Economy]",
 				]
 			},
 			{
-				"text": "Diplomatic Missions",
+				"text": "Foreign Aid",
 				"uniques": [
-		 			"Adopt [Diplomatic Missions]",
+		 			"Adopt [Foreign Aid]",
 				]
 			},
 			{
-				"text": "Free Trade",
+				"text": "World Expo",
 				"uniques": [
-		 			"Adopt [Free Trade]",
-				]
-			},
-			{
-				"text": "Autarky",
-				"uniques": [
-		 			"Adopt [Autarky]",
-				]
-			}
-		]
-	},
-	{
-		"name": "Industrial Policy",
-		"text": "You have reached this era, behold the machinery and a new age for mankind!",
-		"presentation": "Alert",
-		"choices": [
-			{
-				"text": "Free Religion",
-				"uniques": [
-		 			"Adopt [Free Religion]",
-				]
-			},
-			{
-				"text": "Educated Elite",
-				"uniques": [
-		 			"Adopt [Educated Elite]",
-				]
-			},
-			{
-				"text": "Trade Unions",
-				"uniques": [
-		 			"Adopt [Trade Unions]",
-				]
-			},
-			{
-				"text": "Religious Orders",
-				"uniques": [
-		 			"Adopt [Religious Orders]",
-				]
-			},
-			{
-				"text": "Monasticism",
-				"uniques": [
-		 			"Adopt [Monasticism]",
-				]
-			},
-			{
-				"text": "Planned Economy",
-				"uniques": [
-		 			"Adopt [Planned Economy]",
-				]
-			},
-			{
-				"text": "Diplomatic Missions",
-				"uniques": [
-		 			"Adopt [Diplomatic Missions]",
-				]
-			},
-			{
-				"text": "Free Trade",
-				"uniques": [
-		 			"Adopt [Free Trade]",
-				]
-			},
-			{
-				"text": "Autarky",
-				"uniques": [
-		 			"Adopt [Autarky]",
+		 			"Adopt [World Expo]",
 				]
 			}
 		]
