@@ -1,6 +1,21 @@
 
 [
 	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects",
+		"Free [Great Prophet] appears", "Gain a [Pantheon] belief"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"movement": 2,
