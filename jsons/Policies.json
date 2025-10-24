@@ -584,6 +584,7 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
+					"Gain a free [Governor's Mansion] [in this city] <upon founding a city> <on foreign continents>",
 					"[+2 Gold] from each Trade Route" // TODO: +4 Gold from all your Sea Trade Routes
 				],
 				"requires": [
@@ -1591,7 +1592,7 @@
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-50]%",
 			"[+50]% Natural religion spread [in City-State cities]",
-			"Gain a free [Follower] belief <after founding a religion>",
+			"Gain a free [Founder] belief <after founding a religion>",
 			"Comment [Recommended for Freedom & Autocracy civs]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
                 ],
