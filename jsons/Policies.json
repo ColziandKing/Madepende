@@ -1553,7 +1553,7 @@
 			{
 				"name": "Free Religion",
 				"uniques": [
-					"[-3 Faith] [in holy cities]",
+					"[-3 Faith] <in [Puppeted] cities>",
 					"[-2 Faith] [in capital]",
 					"[-1 Faith] [in all cities]",
 					"[+27]% Natural religion spread [in all cities] <in [Annexed] cities>",
