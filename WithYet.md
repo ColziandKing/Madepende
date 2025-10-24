@@ -221,3 +221,64 @@
         ]
 	},
   //event
+	{
+		"name": "New Policy",
+		"text": "Don't be shy, choose a policy. You have reached this era, behold the machinery and a new age for mankind!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Resource Contracts",
+				"uniques": [
+		 			"Adopt [Resource Contracts]",
+				]
+			},
+			{
+				"text": "Colonialism",
+				"uniques": [
+		 			"Adopt [Colonialism]",
+				]
+			},
+			{
+				"text": "Counter Intelligence",
+				"uniques": [
+		 			"Adopt [Counter Intelligence]",
+				]
+			},
+			{
+				"text": "Black Bloc",
+				"uniques": [
+		 			"Adopt [Black Bloc]",
+				]
+			},
+			{
+				"text": "State Logistics",
+				"uniques": [
+		 			"Adopt [State Logistics]",
+				]
+			},
+			{
+				"text": "Mercenary Opportunism",
+				"uniques": [
+		 			"Adopt [Mercenary Opportunism]",
+				]
+			},
+			{
+				"text": "Market Economy",
+				"uniques": [
+		 			"Adopt [Market Economy]",
+				]
+			},
+			{
+				"text": "Foreign Aid",
+				"uniques": [
+		 			"Adopt [Foreign Aid]",
+				]
+			},
+			{
+				"text": "World Expo",
+				"uniques": [
+		 			"Adopt [World Expo]",
+				]
+			}
+		]
+	},
