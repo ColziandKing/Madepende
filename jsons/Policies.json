@@ -1556,7 +1556,7 @@
 					"[-3 Faith] [in holy cities]",
 					"[-2 Faith] [in capital]",
 					"[-1 Faith] [in all cities]",
-					"[+27]% Natural religion spread [in all cities]",
+					"[+27]% Natural religion spread [in all cities] <in [Annexed] cities>",
 			"Comment [Recommended for Order civs]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
 				],
