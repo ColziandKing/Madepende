@@ -322,9 +322,12 @@
 	},
     {
         "name": "Governor's Mansion",
+		"cost": 125,
         "happiness": 2,
+        "maintenance": 2,
+        "hurryCostModifier": 25,
         "uniques": [
-            "Unsellable", "Unbuildable",
+            "Unsellable", 
             "[+2] population [in this city]"
         ]
     },
