@@ -1592,7 +1592,7 @@
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-50]%",
 			"[+50]% Natural religion spread [in City-State cities]",
-			"Gain a free [Founder] belief <after founding a religion>",
+			"Gain a free [Founder] belief <upon founding a Religion>",
 			"Comment [Recommended for Freedom & Autocracy civs]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
                 ],
