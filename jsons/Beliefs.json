@@ -241,19 +241,6 @@
 
 	// Follower
     {
-        "name": "Religious Art",
-        "type": "Follower",
-        "uniques": [
-			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]] & may buy [Monument], [Amphitheater], [Opera House] with [Faith] in cities following this religion]", 
-			"May buy [Monument] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", 
-			"May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
-			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
-        ],
-		"civilopediaText": [
-			{ "text": "Hermitage", "link": "Building/Hermitage" }
-		]
-    },
-    {
         "name": "Divine inspiration",
         "type": "Follower",
         "uniques": ["[+1 Faith, +1 Culture] from every [Wonder]","[+1 Faith, +1 Culture] from every [Natural Wonder]","[+2 Science] from every [National Wonder]"]
@@ -395,29 +382,12 @@
 
     // Reformation Beliefs
     {
-        "name": "Apostolic Palace",
-        "type": "Enhancer",
-        "uniques": [
-            "[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]",
-            "Only available <after adopting [Reformation]>"
-        ]
-    },
-    {
-        "name": "Houses of Worship",
-        "type": "Enhancer",
-        "uniques": [
-            "May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion]",
-            "May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion]",
-            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]",
-            "Only available <after adopting [Reformation]>"
-        ]
-    },
-    {
         "name": "Charitable Missions",
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            "Gifts of Gold to City-States generate [+30]% more Influence"
+            "Gifts of Gold to City-States generate [+30]% more Influence",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ]
     },
     {
@@ -425,6 +395,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
+            // Implemented as a Missionary unique. @see Units.json
 			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
         ],
 		"civilopediaText": [
@@ -436,7 +407,9 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it" // TODO: Missionaries convert adjacent Barbarian units to this civilization
+            // TODO: Missionaries convert adjacent Barbarian units to this civilization
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it",
+			"[-20]% weight to this choice for AI decisions" // Something AI doesn't take full advantage of
         ]
     },
     {
@@ -446,7 +419,8 @@
             "Only available <after adopting [Reformation]>",
 			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]"
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+50]% weight to this choice for AI decisions"
 		]
     },
     {
@@ -458,7 +432,8 @@
 			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]"
+			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+50]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
         ]
     },
     {
@@ -466,8 +441,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			// TODO: All buildings purchased with Faith provide 2 Tourism each
-			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]"
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]", // @see Buildings.json
+			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
         ],
 		"civilopediaText": [
 			{ "text": "Cathedral", "link": "Building/Cathedral" },
@@ -481,7 +456,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"May buy [Great Person] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+			"May buy [Great Person] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+			"[+50]% weight to this choice for AI decisions"
         ]
     },
     {
@@ -492,7 +468,8 @@
             // TODO: Your spies exert religious pressure on the cities they occupy
 			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
 			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
-			"Only available <when espionage is enabled> <hidden from users>"
+			"Only available <when espionage is enabled> <hidden from users>",
+			"[-50]% weight to this choice for AI decisions" // Not that good.
         ]
     },
     {
@@ -502,6 +479,24 @@
             "Only available <after adopting [Reformation]>",
             // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
 			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
+        ]
+	},
+    {
+        "name": "Apostolic Palace",
+        "type": "Enhancer",
+        "uniques": [
+            "[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]",
+            "Only available <after adopting [Reformation]>"
+        ]
+    },
+    {
+        "name": "Houses of Worship",
+        "type": "Enhancer",
+        "uniques": ["Only available <after adopting [Reformation]>",
+            "May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]",
+            
         ]
     },
     {
