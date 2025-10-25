@@ -351,7 +351,7 @@
         "culture": 2,
         "happiness": 1,
         "uniques": [
-		"Unsellable","Unbuildable",
+		"Unsellable",
             "[+2] population [in this city]"
         ],
         "requiredTech": "Mathematics"
