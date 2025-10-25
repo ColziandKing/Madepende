@@ -1,5 +1,18 @@
 [
 	{
+        "name": "Candi",
+        "replaces": "Garden",
+        "uniqueTo": "Majapahit",
+        "cost": 120,
+        "faith": 3, // TODO: +2 Faith, +2 additional Faith for each Religion that has at least 1 follower in the city.
+        "uniques": [
+			"[+25]% Great Person generation [in this city]"
+		],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Theology"
+    },
+	{
 		"name": "Stonehenge",
 		"faith": 5,
 		"isWonder": true,
