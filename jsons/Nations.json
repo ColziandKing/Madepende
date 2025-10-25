@@ -59,7 +59,7 @@
 		"uniqueName": "Scourge of God",
 		"uniques": [
 			"Cannot build [Settler] units","[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", 
-			"Free [Settler] appears <upon entering a new era> <after turn number [3]> <hidden from users>","\"Borrows\" city names from other civilizations in the game"
+			"Free [Settler] appears <upon entering a new era> <after turn number [3]> <hidden from users>","May not puppet cities",
 		],
 		"cities": ["Attila's Court","New Sirmium","Nova Aquileia","Neo Metz"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
